@@ -31,4 +31,13 @@ public interface SysPostMapper {
     int updateByPrimaryKeySelective(SysPost record);
 
     int updateByPrimaryKey(SysPost record);
+
+    /**
+     * 根据用户ID查询岗位
+     *
+     * @param userId 用户ID
+     * @return 岗位列表
+     */
+     List<SysPost> selectPostsByUserId(Long userId);
+
 }

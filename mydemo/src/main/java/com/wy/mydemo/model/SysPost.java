@@ -1,128 +1,123 @@
 package com.wy.mydemo.model;
 
-import java.io.Serializable;
-import java.util.Date;
+import com.wy.mydemo.common.annotation.Excel;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
-public class SysPost extends BaseEntity implements Serializable {
-    private Long postId;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 
-    private String postCode;
 
-    private String postName;
-
-    private Integer postSort;
-
-    private String status;
-
-    private String createBy;
-
-    private Date createTime;
-
-    private String updateBy;
-
-    private Date updateTime;
-
-    private String remark;
-
+/**
+ * 岗位表 sys_post
+ *
+ * @author ruoyi
+ */
+public class SysPost extends BaseEntity
+{
     private static final long serialVersionUID = 1L;
 
-    public Long getPostId() {
+    /** 岗位序号 */
+    @Excel(name = "岗位序号")
+    private Long postId;
+
+    /** 岗位编码 */
+    @Excel(name = "岗位编码")
+    private String postCode;
+
+    /** 岗位名称 */
+    @Excel(name = "岗位名称")
+    private String postName;
+
+    /** 岗位排序 */
+    @Excel(name = "岗位排序")
+    private String postSort;
+
+    /** 状态（0正常 1停用） */
+    @Excel(name = "状态", readConverterExp = "0=正常,1=停用")
+    private String status;
+
+    /** 用户是否存在此岗位标识 默认不存在 */
+    private boolean flag = false;
+
+    public Long getPostId()
+    {
         return postId;
     }
 
-    public void setPostId(Long postId) {
+    public void setPostId(Long postId)
+    {
         this.postId = postId;
     }
 
-    public String getPostCode() {
+    @NotBlank(message = "岗位编码不能为空")
+    @Size(min = 0, max = 64, message = "岗位编码长度不能超过64个字符")
+    public String getPostCode()
+    {
         return postCode;
     }
 
-    public void setPostCode(String postCode) {
-        this.postCode = postCode == null ? null : postCode.trim();
+    public void setPostCode(String postCode)
+    {
+        this.postCode = postCode;
     }
 
-    public String getPostName() {
+    @NotBlank(message = "岗位名称不能为空")
+    @Size(min = 0, max = 50, message = "岗位名称长度不能超过50个字符")
+    public String getPostName()
+    {
         return postName;
     }
 
-    public void setPostName(String postName) {
-        this.postName = postName == null ? null : postName.trim();
+    public void setPostName(String postName)
+    {
+        this.postName = postName;
     }
 
-    public Integer getPostSort() {
+    @NotBlank(message = "显示顺序不能为空")
+    public String getPostSort()
+    {
         return postSort;
     }
 
-    public void setPostSort(Integer postSort) {
+    public void setPostSort(String postSort)
+    {
         this.postSort = postSort;
     }
 
-    public String getStatus() {
+    public String getStatus()
+    {
         return status;
     }
 
-    public void setStatus(String status) {
-        this.status = status == null ? null : status.trim();
+    public void setStatus(String status)
+    {
+        this.status = status;
     }
 
-    public String getCreateBy() {
-        return createBy;
+    public boolean isFlag()
+    {
+        return flag;
     }
 
-    public void setCreateBy(String createBy) {
-        this.createBy = createBy == null ? null : createBy.trim();
-    }
-
-    public Date getCreateTime() {
-        return createTime;
-    }
-
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
-    }
-
-    public String getUpdateBy() {
-        return updateBy;
-    }
-
-    public void setUpdateBy(String updateBy) {
-        this.updateBy = updateBy == null ? null : updateBy.trim();
-    }
-
-    public Date getUpdateTime() {
-        return updateTime;
-    }
-
-    public void setUpdateTime(Date updateTime) {
-        this.updateTime = updateTime;
-    }
-
-    public String getRemark() {
-        return remark;
-    }
-
-    public void setRemark(String remark) {
-        this.remark = remark == null ? null : remark.trim();
+    public void setFlag(boolean flag)
+    {
+        this.flag = flag;
     }
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(getClass().getSimpleName());
-        sb.append(" [");
-        sb.append("Hash = ").append(hashCode());
-        sb.append(", postId=").append(postId);
-        sb.append(", postCode=").append(postCode);
-        sb.append(", postName=").append(postName);
-        sb.append(", postSort=").append(postSort);
-        sb.append(", status=").append(status);
-        sb.append(", createBy=").append(createBy);
-        sb.append(", createTime=").append(createTime);
-        sb.append(", updateBy=").append(updateBy);
-        sb.append(", updateTime=").append(updateTime);
-        sb.append(", remark=").append(remark);
-        sb.append("]");
-        return sb.toString();
+        return new ToStringBuilder(this,ToStringStyle.MULTI_LINE_STYLE)
+                .append("postId", getPostId())
+                .append("postCode", getPostCode())
+                .append("postName", getPostName())
+                .append("postSort", getPostSort())
+                .append("status", getStatus())
+                .append("createBy", getCreateBy())
+                .append("createTime", getCreateTime())
+                .append("updateBy", getUpdateBy())
+                .append("updateTime", getUpdateTime())
+                .append("remark", getRemark())
+                .toString();
     }
 }

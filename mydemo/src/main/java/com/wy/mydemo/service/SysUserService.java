@@ -2,19 +2,35 @@ package com.wy.mydemo.service;
 
 
 import com.wy.mydemo.common.annotation.DataScope;
+import com.wy.mydemo.common.constant.UserConstants;
+import com.wy.mydemo.common.exception.business.BusinessException;
 import com.wy.mydemo.mapper.SysUserMapper;
-import com.wy.mydemo.model.SysUser;
+import com.wy.mydemo.mapper.SysUserPostMapper;
+import com.wy.mydemo.mapper.SysUserRoleMapper;
+import com.wy.mydemo.model.*;
+import com.wy.mydemo.util.StringUtils;
+import com.wy.mydemo.util.core.text.Convert;
+import com.wy.mydemo.util.security.Md5Utils;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
+import java.util.ArrayList;
 import java.util.List;
 
 @Service
 public class SysUserService {
-
+    private static final Logger log = LoggerFactory.getLogger(SysUserService.class);
     @Autowired
     private SysUserMapper userMapper;
-
+    @Autowired
+    private SysUserRoleMapper userRoleMapper;
+    @Autowired
+    private SysUserPostMapper userPostMapper;
+    @Autowired
+    private SysConfigService configService;
     /**
      * 通过登录名查询用户
      *
@@ -59,8 +75,8 @@ public class SysUserService {
      * @return 用户信息集合信息
      */
     @DataScope(deptAlias = "d", userAlias = "u")
-    public List<SysUser> selectAllocatedList(SysUser user){
-        return userMapper.selectAllocatedList(user);
+    public List<SysUser> selectAllocatedList(SysUser user) {
+        return userMapper.selectAllocatedList( user );
     }
 
     /**
@@ -71,7 +87,256 @@ public class SysUserService {
      */
     @DataScope(deptAlias = "d", userAlias = "u")
     public List<SysUser> selectUnallocatedList(SysUser user) {
-        return userMapper.selectUnallocatedList(user);
+        return userMapper.selectUnallocatedList( user );
+    }
+
+
+    /**
+     * 根据条件分页查询用户列表
+     *
+     * @param user 用户信息
+     * @return 用户信息集合信息
+     */
+    @DataScope(deptAlias = "d", userAlias = "u")
+    public List<SysUser> selectUserList(SysUser user) {
+        return userMapper.selectUserList( user );
+    }
+
+
+    /**
+     * 校验登录名称是否唯一
+     *
+     * @param loginName 用户名
+     * @return
+     */
+    public String checkLoginNameUnique(String loginName) {
+        SysUserExample example = new SysUserExample();
+        example.createCriteria().andLoginNameEqualTo( loginName );
+        int count = userMapper.countByExample( example );
+        if (count > 0) {
+            return UserConstants.USER_NAME_NOT_UNIQUE;
+        }
+        return UserConstants.USER_NAME_UNIQUE;
+    }
+
+    /**
+     * 校验用户名称是否唯一
+     *
+     * @param user 用户信息
+     * @return
+     */
+    public String checkPhoneUnique(SysUser user) {
+        Long userId = StringUtils.isNull( user.getUserId() ) ? -1L : user.getUserId();
+        SysUser info = userMapper.selectUserByPhoneNumber( user.getPhonenumber() );
+        if (StringUtils.isNotNull( info ) && info.getUserId().longValue() != userId.longValue()) {
+            return UserConstants.USER_PHONE_NOT_UNIQUE;
+        }
+        return UserConstants.USER_PHONE_UNIQUE;
+    }
+
+    /**
+     * 新增保存用户信息
+     *
+     * @param user 用户信息
+     * @return 结果
+     */
+    @Transactional
+    public int insertUser(SysUser user) {
+        // 新增用户信息
+        int rows = userMapper.insertSelective( user );
+        // 新增用户岗位关联
+        insertUserPost( user );
+        // 新增用户与角色管理
+        insertUserRole( user );
+        return rows;
+    }
+
+
+    /**
+     * 新增用户岗位信息
+     *
+     * @param user 用户对象
+     */
+    public void insertUserPost(SysUser user) {
+        Long[] posts = user.getPostIds();
+        if (StringUtils.isNotNull( posts )) {
+            // 新增用户与岗位管理
+            List<SysUserPost> list = new ArrayList<SysUserPost>();
+            for (Long postId : posts) {
+                SysUserPost up = new SysUserPost();
+                up.setUserId( user.getUserId() );
+                up.setPostId( postId );
+                list.add( up );
+            }
+            if (list.size() > 0) {
+                userPostMapper.batchUserPost( list );
+            }
+        }
+    }
+
+    /**
+     * 新增用户角色信息
+     *
+     * @param user 用户对象
+     */
+    public void insertUserRole(SysUser user) {
+        Long[] roles = user.getRoleIds();
+        if (StringUtils.isNotNull( roles )) {
+            // 新增用户与角色管理
+            List<SysUserRole> list = new ArrayList<SysUserRole>();
+            for (Long roleId : roles) {
+                SysUserRole ur = new SysUserRole();
+                ur.setUserId( user.getUserId() );
+                ur.setRoleId( roleId );
+                list.add( ur );
+            }
+            if (list.size() > 0) {
+                userRoleMapper.batchUserRole( list );
+            }
+        }
+    }
+
+    /**
+     * 通过用户ID查询用户
+     *
+     * @param userId 用户ID
+     * @return 用户对象信息
+     */
+    public SysUser selectUserById(Long userId) {
+        return userMapper.selectByPrimaryKey( userId );
+    }
+
+
+    /**
+     * 批量删除用户信息
+     *
+     * @param ids 需要删除的数据ID
+     * @return 结果
+     */
+    public int deleteUserByIds(String ids) throws BusinessException {
+        Long[] userIds = Convert.toLongArray( ids );
+        for (Long userId : userIds) {
+            if (SysUser.isAdmin( userId )) {
+                throw new BusinessException( "不允许删除超级管理员用户" );
+            }
+        }
+        return userMapper.deleteUserByIds( userIds );
+    }
+
+
+    /**
+     * 校验email是否唯一
+     *
+     * @param user 用户信息
+     * @return
+     */
+    public String checkEmailUnique(SysUser user) {
+        Long userId = StringUtils.isNull( user.getUserId() ) ? -1L : user.getUserId();
+        SysUser info = userMapper.checkEmailUnique( user.getEmail() );
+        if (StringUtils.isNotNull( info ) && info.getUserId().longValue() != userId.longValue()) {
+            return UserConstants.USER_EMAIL_NOT_UNIQUE;
+        }
+        return UserConstants.USER_EMAIL_UNIQUE;
+    }
+
+    /**
+     * 修改保存用户信息
+     *
+     * @param user 用户信息
+     * @return 结果
+     */
+    @Transactional
+    public int updateUser(SysUser user) {
+        Long userId = user.getUserId();
+        // 删除用户与角色关联
+        SysUserRoleExample sysUserRoleExample = new SysUserRoleExample();
+        sysUserRoleExample.createCriteria().andUserIdEqualTo( userId );
+        userRoleMapper.deleteByExample( sysUserRoleExample );
+        // 新增用户与角色管理
+        insertUserRole( user );
+        // 删除用户与岗位关联
+        SysUserPostExample sysUserPostExample = new SysUserPostExample();
+        sysUserPostExample.createCriteria().andUserIdEqualTo( userId );
+        userPostMapper.deleteByExample( sysUserPostExample );
+        // 新增用户与岗位管理
+        insertUserPost( user );
+        return userMapper.updateByPrimaryKeySelective( user );
+    }
+
+    /**
+     * 修改用户密码
+     *
+     * @param user 用户信息
+     * @return 结果
+     */
+    public int resetUserPwd(SysUser user) {
+        return updateUserInfo( user );
+    }
+
+
+    /**
+     * 用户状态修改
+     *
+     * @param user 用户信息
+     * @return 结果
+     */
+    public int changeStatus(SysUser user) {
+        if (SysUser.isAdmin( user.getUserId() )) {
+            throw new BusinessException( "不允许修改超级管理员用户" );
+        }
+        return userMapper.updateByPrimaryKeySelective( user );
+    }
+
+    /**
+     * 导入用户数据
+     *
+     * @param userList        用户数据列表
+     * @param isUpdateSupport 是否更新支持，如果已存在，则进行更新数据
+     * @param operName        操作用户
+     * @return 结果
+     */
+    public String importUser(List<SysUser> userList, Boolean isUpdateSupport, String operName) {
+        if (StringUtils.isNull( userList ) || userList.size() == 0) {
+            throw new BusinessException( "导入用户数据不能为空！" );
+        }
+        int successNum = 0;
+        int failureNum = 0;
+        StringBuilder successMsg = new StringBuilder();
+        StringBuilder failureMsg = new StringBuilder();
+        String password = configService.selectConfigByKey( "sys.user.initPassword" );
+        for (SysUser user : userList) {
+            try {
+                // 验证是否存在这个用户
+                SysUser u = userMapper.selectUserByLoginName( user.getLoginName() );
+                if (StringUtils.isNull( u )) {
+                    user.setPassword( Md5Utils.hash( user.getLoginName() + password ) );
+                    user.setCreateBy( operName );
+                    this.insertUser( user );
+                    successNum++;
+                    successMsg.append( "<br/>" + successNum + "、账号 " + user.getLoginName() + " 导入成功" );
+                } else if (isUpdateSupport) {
+                    user.setUpdateBy( operName );
+                    this.updateUser( user );
+                    successNum++;
+                    successMsg.append( "<br/>" + successNum + "、账号 " + user.getLoginName() + " 更新成功" );
+                } else {
+                    failureNum++;
+                    failureMsg.append( "<br/>" + failureNum + "、账号 " + user.getLoginName() + " 已存在" );
+                }
+            } catch (Exception e) {
+                failureNum++;
+                String msg = "<br/>" + failureNum + "、账号 " + user.getLoginName() + " 导入失败：";
+                failureMsg.append( msg + e.getMessage() );
+                log.error( msg, e );
+            }
+        }
+        if (failureNum > 0) {
+            failureMsg.insert( 0, "很抱歉，导入失败！共 " + failureNum + " 条数据格式不正确，错误如下：" );
+            throw new BusinessException( failureMsg.toString() );
+        } else {
+            successMsg.insert( 0, "恭喜您，数据已全部导入成功！共 " + successNum + " 条，数据如下：" );
+        }
+        return successMsg.toString();
     }
 
 }

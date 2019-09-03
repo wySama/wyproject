@@ -25,4 +25,12 @@ public interface SysUserPostMapper {
     int updateByExampleSelective(@Param("record") SysUserPost record, @Param("example") SysUserPostExample example);
 
     int updateByExample(@Param("record") SysUserPost record, @Param("example") SysUserPostExample example);
+
+    /**
+     * 批量新增用户岗位信息
+     *
+     * @param userPostList 用户角色列表
+     * @return 结果
+     */
+     int batchUserPost(List<SysUserPost> userPostList);
 }

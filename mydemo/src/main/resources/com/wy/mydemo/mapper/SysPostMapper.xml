@@ -288,4 +288,14 @@
       remark = #{remark,jdbcType=VARCHAR}
     where post_id = #{postId,jdbcType=BIGINT}
   </update>
+
+  <select id="selectPostsByUserId" parameterType="Long" resultMap="BaseResultMap">
+		SELECT p.post_id, p.post_name, p.post_code
+		FROM sys_user u
+			 LEFT JOIN sys_user_post up ON u.user_id = up.user_id
+			 LEFT JOIN sys_post p ON up.post_id = p.post_id
+		WHERE up.user_id = #{userId}
+	</select>
+
+
 </mapper>

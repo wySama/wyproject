@@ -1,7 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bc526445-1e0e-40e0-9a6f-14c1a13c8f5f" name="Default" comment="" />
+    <list default="true" id="bc526445-1e0e-40e0-9a6f-14c1a13c8f5f" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/1_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/1_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/diy/9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/default/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/metro/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/metro/img/line_conn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/metro/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/metro/img/metro.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/metro/img/metro.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/metro/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/img/left_menu.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/img/left_menu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/img/line_conn.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/img/zTreeStandard.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/img/zTreeStandard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/css/simple/zTreeStyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/js/jquery.ztree.all-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/js/jquery.ztree.core-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/js/jquery.ztree.excheck-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/js/jquery.ztree.exedit-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/js/jquery.ztree.exhide-3.5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-ztree/3.5/log v3.x.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/target/classes/CodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/target/classes/CodeGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/target/classes/RunGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/target/classes/RunGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/BatchInsertOldPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/BatchInsertOldPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/BatchInsertPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/BatchInsertPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/CommTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/CommTools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/CommentTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/CommentTools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/CriteriaBuilderPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/CriteriaBuilderPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/ExampleEnhancedPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/ExampleEnhancedPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/ExampleTargetPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/ExampleTargetPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/InnerInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/InnerInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/InnerInterfaceWrapperToInnerClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/InnerInterfaceWrapperToInnerClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/LimitPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/LimitPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/LogicalDeletePlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/LogicalDeletePlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/ModelBuilderPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/ModelBuilderPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/ModelColumnPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/ModelColumnPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/SelectOneByExamplePlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/SelectOneByExamplePlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/UpsertPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/UpsertPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/XmlElementGeneratorTools.class" beforeDir="false" afterPath="$PROJECT_DIR$/code-generator/target/classes/cn/com/artlife/codeGenerator/XmlElementGeneratorTools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/exception/file/FileException.java" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/exception/file/FileException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/SysRoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/common/CommonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/common/CommonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysDeptMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysDeptMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysPostMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysPostMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysUserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysUserPostMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysUserPostMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysUserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysUserRoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysDept.java" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysDept.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysPost.java" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysPost.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/service/SysRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/service/SysRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/service/SysUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/service/SysUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/util/file/FileUploadUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/util/file/FileUploadUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysDeptMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysDeptMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysPostMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysPostMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysUserPostMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysUserPostMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wyproject.iml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/code-generator/target/" />
@@ -29,35 +101,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileUploadUtils.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/util/file/FileUploadUtils.java">
+      <file leaf-file-name="resetPwd.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mydemo/src/main/resources/templates/views/user/profile/resetPwd.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="972">
+              <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FileNameLengthLimitExceededException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/exception/file/FileNameLengthLimitExceededException.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="FileException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/exception/file/FileException.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="FileSizeLimitExceededException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/exception/file/FileSizeLimitExceededException.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="InvalidExtensionException.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/exception/file/InvalidExtensionException.java">
+      <file leaf-file-name="SysUserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/system/SysUserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="245">
+              <caret line="99" column="40" lean-forward="true" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SysRoleService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/service/SysRoleService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="157">
+              <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+              <folding>
+                <element signature="e#1763#1764#0" expanded="true" />
+                <element signature="e#1819#1820#0" expanded="true" />
+                <element signature="e#6849#6850#0" expanded="true" />
+                <element signature="e#6931#6932#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpringUtils.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/framework/shiro/util/SpringUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="111" selection-start-line="111" selection-end-line="111" />
+              <folding>
+                <element signature="e#2923#2924#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -68,21 +155,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>saveOnline</find>
-      <find>selectConfig</find>
-      <find>system</find>
-      <find>main</find>
-      <find>*.sql</find>
-      <find>favicon.ico</find>
-      <find>static</find>
-      <find>href=&quot;../static/favicon.ico&quot;</find>
       <find>Workbook</find>
       <find>poi</find>
       <find>HSSFColor</find>
@@ -102,9 +181,17 @@
       <find>beginTime</find>
       <find>list</find>
       <find>export</find>
-      <find>DEL_FLAG</find>
       <find>selectRoleList</find>
       <find>com.ruoyi.common.utils.</find>
+      <find>FileSizeLimitExceededException</find>
+      <find>FileNameLengthLimitExceededException</find>
+      <find>InvalidExtensionException</find>
+      <find>exportExcel</find>
+      <find>selectDeptList</find>
+      <find>checkEmailUnique</find>
+      <find>prefix</find>
+      <find>include</find>
+      <find>DEL_FLAG</find>
     </findStrings>
     <replaceStrings>
       <replace>:</replace>
@@ -113,44 +200,23 @@
     <dirStrings>
       <dir>D:\wy\wydemo\wyproject\mydemo\src\main\java\com\wy\mydemo\framework\manager\factory</dir>
       <dir>D:\wy\wydemo\wyproject\mydemo\src\main\java\com\wy\mydemo\framework</dir>
+      <dir>D:\wy\git_demo\wyproject\mydemo\src\main\resources\static\ajax\libs\3.5</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/mydemo/src/main/resources/templates/views/include.html" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/mydemo/src/main/resources/templates/views/index.html" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/mydemo/src/main/resources/templates/views/login.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mydemo/src/main/resources/templates/views/user/user.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mydemo/src/main/resources/templates/views/index.html" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/util/file/FileUploadUtils.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/mydemo/src/main/resources/templates/views/include.html" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/BaseController.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/base/BaseController.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/util/sql/SqlUtil.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/base/controller/BaseController.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/annotation/Excel.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/enums/OperatorType.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/annotation/Log.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/annotation/DataSource.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/base/page/TableSupport.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/base/page/PageDomain.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/base/page/TableDataInfo.java" />
-        <option value="$PROJECT_DIR$/mydemo/pom.xml" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/util/reflect/ReflectUtils.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/util/poi/ExcelUtil.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/resources/templates/views/role/add.html" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysRoleDeptMapper.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysRoleDeptMapper.xml" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysRoleMapper.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/service/SysUserService.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/service/SysRoleService.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysUserMapper.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysUserRoleMapper.xml" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysUserRoleMapper.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysUserMapper.xml" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysRoleMapper.xml" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/BaseEntity.java" />
         <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysConfig.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysDept.java" />
         <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysDictData.java" />
         <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysDictType.java" />
         <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysJobLog.java" />
@@ -164,16 +230,43 @@
         <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysUserPost.java" />
         <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysRoleMenu.java" />
         <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysRoleDept.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysPost.java" />
         <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysOperLog.java" />
         <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/BaseModel.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysRole.java" />
         <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/SysRoleController.java" />
-        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/common/CommonController.java" />
         <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/base/exception/file/FileNameLengthLimitExceededException.java" />
         <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/base/exception/file/FileSizeLimitExceededException.java" />
         <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/exception/file/InvalidExtensionException.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/exception/file/FileException.java" />
         <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/util/file/FileUploadUtils.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/common/CommonController.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/SysDeptController.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysDeptMapper.xml" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysDeptMapper.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/service/SysDeptService.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/system/SysDeptController.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/system/SysRoleController.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysUserPostMapper.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysUserPostMapper.xml" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/service/SysRoleService.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysPostMapper.xml" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysPostMapper.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysPost.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysUserMapper.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysUserMapper.xml" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysUserRoleMapper.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/service/SysPostService.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/service/SysUserService.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/resources/templates/views/user/user.html" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysRole.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysDept.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/system/SysUserController.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/system/SysMenuController.java" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/resources/templates/views/user/add.html" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/resources/templates/views/user/edit.html" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/resources/templates/views/user/resetPwd.html" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/resources/templates/views/user/profile/avatar.html" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/resources/templates/views/user/profile/profile.html" />
+        <option value="$PROJECT_DIR$/mydemo/src/main/resources/templates/views/user/profile/resetPwd.html" />
       </list>
     </option>
   </component>
@@ -219,6 +312,7 @@
     <option name="width" value="1586" />
     <option name="height" value="910" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <flattenPackages ProjectPane="false" />
@@ -264,8 +358,7 @@
               <item name="mydemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wyproject" type="b2602c69:ProjectViewProjectNode" />
@@ -273,9 +366,8 @@
               <item name="mydemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wyproject" type="b2602c69:ProjectViewProjectNode" />
@@ -283,10 +375,9 @@
               <item name="mydemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wyproject" type="b2602c69:ProjectViewProjectNode" />
@@ -294,11 +385,8 @@
               <item name="mydemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wyproject" type="b2602c69:ProjectViewProjectNode" />
@@ -306,10 +394,9 @@
               <item name="mydemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wyproject" type="b2602c69:ProjectViewProjectNode" />
@@ -317,32 +404,10 @@
               <item name="mydemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="exception" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wyproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wyproject" type="462c0819:PsiDirectoryNode" />
-              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wyproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wyproject" type="462c0819:PsiDirectoryNode" />
-              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mydemo" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="profile" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -371,25 +436,25 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\wy\wydemo\wyproject\mydemo\src\main\resources\static\css\main" />
-    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.wy.mydemo.service" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\wy\git_demo\wyproject\mydemo\src\main\resources\static\ajax\libs\jquery-ztree\3.5" />
+      <recent name="D:\wy\git_demo\wyproject\mydemo\src\main\resources\static\ajax\libs" />
+      <recent name="D:\wy\git_demo\wyproject\mydemo\src\main\resources\templates\views" />
+      <recent name="D:\wy\wydemo\wyproject\mydemo\src\main\java\com\wy\mydemo\common\exception" />
+      <recent name="D:\wy\wydemo\wyproject\mydemo\src\main\java\com\wy\mydemo\common\base\exception" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wy.mydemo.controller.system" />
+      <recent name="com.wy.mydemo.controller" />
       <recent name="com.wy.mydemo.controller.common" />
       <recent name="com.wy.mydemo.model" />
       <recent name="com.wy.mydemo.util.reflect" />
-      <recent name="com.wy.mydemo.util.poi" />
-      <recent name="com.wy.mydemo.util.sql" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\wy\wydemo\wyproject\mydemo\src\main\java\com\wy\mydemo\common\exception" />
-      <recent name="D:\wy\wydemo\wyproject\mydemo\src\main\java\com\wy\mydemo\common\base\exception" />
-      <recent name="D:\wy\wydemo\wyproject\mydemo\src\main\java\com\wy\mydemo\util" />
-      <recent name="D:\wy\wydemo\wyproject\mydemo\src\main\resources\templates\views\role" />
-      <recent name="D:\wy\wydemo\wyproject\mydemo\src\main\java\com\wy\mydemo\common\enums" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wy\wydemo\wyproject\mydemo\src\main\resources\static\css\main" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -548,6 +613,7 @@
       <workItem from="1566809058749" duration="778000" />
       <workItem from="1566888833091" duration="1908000" />
       <workItem from="1567130297580" duration="19418000" />
+      <workItem from="1567494771044" duration="7650000" />
     </task>
     <servers />
   </component>
@@ -560,7 +626,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90635000" />
+    <option name="totallyTimeSpent" value="98285000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -576,68 +642,67 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.39067703" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5010661" side_tool="true" weight="0.60888886" />
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.16577825" />
-      <window_info anchor="right" id="CDI" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="CDI" order="4" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.7081021" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" visible="true" weight="0.41555557" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32963374" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.16648169" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.4211111" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.4372919" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3640725" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23081024" />
       <window_info anchor="right" id="Bean Validation" order="4" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.12874584" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.15" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="11" sideWeight="0.5015015" side_tool="true" weight="0.16151386" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4372919" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4372919" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32995737" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="CDI" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.39067703" />
-      <window_info anchor="bottom" id="Messages" order="9" visible="true" weight="0.16648169" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.39" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.16648169" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32963374" />
       <window_info anchor="right" x="0" y="0" width="434" height="856" id="Documentation" order="12" sideWeight="0.5015015" side_tool="true" weight="0.16151386" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="right" id="Maven Projects" order="5" weight="0.16577825" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15991472" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.12777779" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16950959" />
       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Web" order="7" side_tool="true" />
@@ -645,7 +710,8 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.118756935" />
+      <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.25444445" />
       <window_info anchor="right" id="Bean Validation" order="10" />
     </layout-to-restore>
   </component>
@@ -665,333 +731,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/SysLoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/resources/templates/views/role/role.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1001">
-          <caret line="68" column="27" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="65" column="32" selection-start-line="65" selection-start-column="18" selection-end-line="65" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/BaseEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysDept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysDictData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysDictType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/Ztree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysUserRoleExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysUserRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysUserPost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysUserOnline.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysRoleMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysRoleDept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" column="43" selection-start-line="4" selection-start-column="43" selection-end-line="4" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysOperLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="42" selection-start-line="5" selection-start-column="42" selection-end-line="5" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysNotice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="41" selection-start-line="5" selection-start-column="41" selection-end-line="5" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysMenu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="39" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysLogininfor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="5" column="45" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysJobLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/BaseModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#564#565#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#661#662#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#752#753#0" expanded="true" />
-            <element signature="e#787#788#0" expanded="true" />
-            <element signature="e#843#844#0" expanded="true" />
-            <element signature="e#891#892#0" expanded="true" />
-            <element signature="e#932#933#0" expanded="true" />
-            <element signature="e#969#970#0" expanded="true" />
-            <element signature="e#1029#1030#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1155#1156#0" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1259#1260#0" expanded="true" />
-            <element signature="e#1291#1292#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
-            <element signature="e#1367#1368#0" expanded="true" />
-            <element signature="e#1407#1408#0" expanded="true" />
-            <element signature="e#1438#1439#0" expanded="true" />
-            <element signature="e#1468#1469#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
-            <element signature="e#1549#1550#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysPost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysUserExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="1472" column="59" lean-forward="true" selection-start-line="1472" selection-start-column="59" selection-end-line="1472" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysRoleExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="922" column="51" selection-start-line="922" selection-start-column="51" selection-end-line="922" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/service/SysRoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="58" column="25" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="25" />
-          <folding>
-            <element signature="e#1708#1709#0" expanded="true" />
-            <element signature="e#1764#1765#0" expanded="true" />
-            <element signature="e#4967#4968#0" expanded="true" />
-            <element signature="e#5038#5039#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysRoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="357" column="28" selection-start-line="357" selection-start-column="14" selection-end-line="357" selection-end-column="28" />
-          <folding>
-            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
-            <element signature="n#sql#0;n#mapper#0;n#!!top" />
-            <element signature="n#sql#1;n#mapper#0;n#!!top" />
-            <element signature="n#select#1;n#mapper#0;n#!!top" />
-            <element signature="n#delete#0;n#mapper#0;n#!!top" />
-            <element signature="n#delete#1;n#mapper#0;n#!!top" />
-            <element signature="n#insert#0;n#mapper#0;n#!!top" />
-            <element signature="n#insert#1;n#mapper#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-675">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.0.10.RELEASE/spring-core-5.0.10.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="104" selection-start-line="104" selection-end-line="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.10.RELEASE/spring-aop-5.0.10.RELEASE.jar!/org/springframework/aop/framework/adapter/MethodBeforeAdviceInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.10.RELEASE/spring-aop-5.0.10.RELEASE.jar!/org/springframework/aop/framework/adapter/AfterReturningAdviceInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-core/1.4.0/shiro-core-1.4.0.jar!/org/apache/shiro/authz/aop/AuthorizingMethodInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/shiro/shiro-spring/1.4.0/shiro-spring-1.4.0.jar!/org/apache/shiro/spring/security/interceptor/AopAllianceAnnotationsAuthorizingMethodInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.10.RELEASE/spring-aop-5.0.10.RELEASE.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.10.RELEASE/spring-aop-5.0.10.RELEASE.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="76" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.0.10.RELEASE/spring-aop-5.0.10.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="507" selection-start-line="507" selection-end-line="507" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/util/poi/ExcelUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="266" column="19" lean-forward="true" selection-start-line="266" selection-start-column="19" selection-end-line="266" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#importExcel#1;class#ExcelUtil#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/SysRoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="445">
-          <caret line="74" column="7" lean-forward="true" selection-start-line="74" selection-start-column="7" selection-end-line="74" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2231#2240#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1001,56 +744,382 @@
     <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/util/file/MimeTypeUtils.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/base/exception/file/InvalidExtensionException.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/base/exception/file/InvalidExtensionException.java" />
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/base/exception/file/FileException.java" />
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/base/exception/file/FileSizeLimitExceededException.java" />
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/base/exception/file/FileNameLengthLimitExceededException.java" />
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/exception/file/FileNameLengthLimitExceededException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/base/exception/file/FileException.java">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/exception/file/InvalidExtensionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="40" column="15" selection-start-line="40" selection-start-column="15" selection-end-line="40" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/exception/file/FileSizeLimitExceededException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/exception/file/FileException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/SwaggerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/util/file/FileUploadUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding>
+            <element signature="method#isAllowedExtension#0;class#FileUploadUtils#0" />
+            <element signature="method#getExtension#0;class#FileUploadUtils#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/resources/static/ruoyi/js/ry-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="913">
+          <caret line="268" column="8" lean-forward="true" selection-start-line="268" selection-start-column="8" selection-end-line="268" selection-end-column="8" />
+          <folding>
+            <element signature="n#style#0;n#input#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/common/CommonController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="47" column="42" selection-start-line="47" selection-start-column="42" selection-end-line="47" selection-end-column="42" />
+        <state relative-caret-position="308">
+          <caret line="63" column="7" lean-forward="true" selection-start-line="63" selection-start-column="7" selection-end-line="63" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/base/exception/file/FileSizeLimitExceededException.java">
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/SysRoleController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="4617">
+          <caret line="210" column="7" lean-forward="true" selection-start-line="210" selection-start-column="7" selection-end-line="210" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2231#2240#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/base/exception/file/FileNameLengthLimitExceededException.java">
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state>
+          <caret selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/exception/file/FileNameLengthLimitExceededException.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/exception/file/FileException.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/exception/file/FileSizeLimitExceededException.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/common/exception/file/InvalidExtensionException.java">
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysDeptMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="546">
+          <caret line="451" column="32" selection-start-line="451" selection-start-column="14" selection-end-line="451" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/util/file/FileUploadUtils.java">
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysDeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="30" column="50" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/service/SysDeptService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="638">
+          <caret line="232" column="33" lean-forward="true" selection-start-line="232" selection-start-column="33" selection-end-line="232" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#1445#1446#0" expanded="true" />
+            <element signature="e#1501#1502#0" expanded="true" />
+            <element signature="e#4979#4980#0" expanded="true" />
+            <element signature="e#5027#5028#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/SysDeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="71" column="41" lean-forward="true" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/system/SysDeptController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/system/SysRoleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="36" column="14" lean-forward="true" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/framework/shiro/service/SysLoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="59" column="65" lean-forward="true" selection-start-line="59" selection-start-column="65" selection-end-line="59" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysPostMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="292" column="50" lean-forward="true" selection-start-line="292" selection-start-column="50" selection-end-line="292" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysUserPostMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="150" column="11" selection-start-line="150" selection-start-column="11" selection-end-line="150" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/resources/com/wy/mydemo/mapper/SysUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="574" column="79" selection-start-line="574" selection-start-column="79" selection-end-line="574" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysUserRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="14" column="50" lean-forward="true" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysUserPostMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/mapper/SysPostMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="22" column="56" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/service/SysPostService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1009">
+          <caret line="45" column="51" lean-forward="true" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/service/SysUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="311" column="42" selection-start-line="311" selection-start-column="42" selection-end-line="311" selection-end-column="42" />
+          <folding>
+            <element signature="e#1494#1495#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+            <element signature="e#5227#5228#0" expanded="true" />
+            <element signature="e#5289#5290#0" expanded="true" />
+            <element signature="method#deleteUserByIds#0;class#SysUserService#0" />
+            <element signature="e#7177#7178#0" expanded="true" />
+            <element signature="e#7220#7221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/resources/templates/views/role/role.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="33" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysDeptExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="1052" column="48" lean-forward="true" selection-start-line="1052" selection-start-column="48" selection-end-line="1052" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/model/SysDept.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
-          <caret line="10" column="35" lean-forward="true" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+          <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/jquery-layout/jquery.layout-latest.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/resources/static/ajax/libs/3.5/js/jquery.ztree.all-3.5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/system/SysMenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-263">
+          <caret line="149" column="45" lean-forward="true" selection-start-line="149" selection-start-column="45" selection-end-line="149" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/resources/templates/views/user/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="91" column="33" selection-start-line="91" selection-start-column="26" selection-end-line="91" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/resources/templates/views/user/add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="136" column="40" selection-start-line="136" selection-start-column="33" selection-end-line="136" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/resources/templates/views/user/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="126" column="33" selection-start-line="126" selection-start-column="33" selection-end-line="126" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/resources/templates/views/user/profile/avatar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/resources/templates/views/user/profile/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="140" column="33" selection-start-line="140" selection-start-column="33" selection-end-line="140" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/resources/templates/views/user/resetPwd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="28" column="34" lean-forward="true" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/resources/templates/views/user/profile/resetPwd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/service/SysRoleService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="58" column="25" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+          <folding>
+            <element signature="e#1763#1764#0" expanded="true" />
+            <element signature="e#1819#1820#0" expanded="true" />
+            <element signature="e#6849#6850#0" expanded="true" />
+            <element signature="e#6931#6932#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/controller/system/SysUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="99" column="40" lean-forward="true" selection-start-line="99" selection-start-column="40" selection-end-line="99" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mydemo/src/main/java/com/wy/mydemo/framework/shiro/util/SpringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="e#2923#2924#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

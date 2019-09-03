@@ -4,6 +4,7 @@ package com.wy.mydemo.service;
 import com.wy.mydemo.common.annotation.DataScope;
 import com.wy.mydemo.common.constant.UserConstants;
 import com.wy.mydemo.common.exception.business.BusinessException;
+import com.wy.mydemo.framework.shiro.util.SpringUtils;
 import com.wy.mydemo.mapper.SysRoleDeptMapper;
 import com.wy.mydemo.mapper.SysRoleMapper;
 import com.wy.mydemo.mapper.SysUserRoleMapper;
@@ -216,6 +217,35 @@ public class SysRoleService {
             list.add( ur );
         }
         return userRoleMapper.batchUserRole( list );
+    }
+
+    /**
+     * 根据用户ID查询角色
+     *
+     * @param userId 用户ID
+     * @return 角色列表
+     */
+    public List<SysRole> selectRolesByUserId(Long userId) {
+        List<SysRole> userRoles = roleMapper.selectRolesByUserId( userId );
+        List<SysRole> roles = selectRoleAll();
+        for (SysRole role : roles) {
+            for (SysRole userRole : userRoles) {
+                if (role.getRoleId().longValue() == userRole.getRoleId().longValue()) {
+                    role.setFlag( true );
+                    break;
+                }
+            }
+        }
+        return roles;
+    }
+
+    /**
+     * 查询所有角色
+     *
+     * @return 角色列表
+     */
+    public List<SysRole> selectRoleAll(){
+        return SpringUtils.getAopProxy(this).selectRoleList(new SysRole());
     }
 
 }

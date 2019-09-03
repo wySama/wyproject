@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 @Mapper
 @Repository
 public interface SysUserMapper {
-    long countByExample(SysUserExample example);
+    int countByExample(SysUserExample example);
 
     int deleteByExample(SysUserExample example);
 
@@ -27,6 +27,8 @@ public interface SysUserMapper {
     SysUser selectUserByLoginName(String loginName);
 
     SysUser selectUserByPhoneNumber(String phoneNumber);
+
+    SysUser checkEmailUnique(String email);
 
     int updateByExampleSelective(@Param("record") SysUser record, @Param("example") SysUserExample example);
 
@@ -68,4 +70,24 @@ public interface SysUserMapper {
      * @return 用户信息集合信息
      */
      List<SysUser> selectUnallocatedList(SysUser user);
+
+
+    /**
+     * 根据条件分页查询用户列表
+     *
+     * @param sysUser 用户信息
+     * @return 用户信息集合信息
+     */
+     List<SysUser> selectUserList(SysUser sysUser);
+
+    /**
+     * 批量删除用户信息
+     *
+     * @param ids 需要删除的数据ID
+     * @return 结果
+     */
+     int deleteUserByIds(Long[] ids);
+
+
+
 }
