@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+    <!--<classPathEntry location="/Program Files/IBM/SQLLIB/java/db2java.zip" />-->
+
+    <context id="DB2Tables" targetRuntime="MyBatis3" defaultModelType="flat">
+
+        <plugin type="org.mybatis.generator.plugins.ToStringPlugin"></plugin>
+        <plugin type="org.mybatis.generator.plugins.MapperAnnotationPlugin"></plugin>
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"></plugin>
+        <plugin type="cn.com.artlife.codeGenerator.LogicalDeletePlugin">
+            <property name="logicalDeleteColumn" value="del_flag"></property>
+            <property name="logicalDeleteValue" value="1"></property>
+        </plugin>
+
+        <commentGenerator>
+            <property name="suppressAllComments" value="true"/>
+            <property name="suppressDate" value="true"/>
+        </commentGenerator>
+
+
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/mydemo"
+                        userId="root"
+                        password="wy940830...">
+        </jdbcConnection>
+
+        <javaModelGenerator targetPackage="com.wy.mydemo.model"
+                            targetProject="D:\wy\wydemo\wyproject\mydemo\src\main\java">
+            <property name="enableSubPackages" value="true"/>
+            <property name="trimStrings" value="true"/>
+        </javaModelGenerator>
+
+        <sqlMapGenerator targetPackage="com.wy.mydemo.mapper"
+                         targetProject="D:\wy\wydemo\wyproject\mydemo\src\main\resources">
+            <property name="enableSubPackages" value="true"/>
+        </sqlMapGenerator>
+
+        <javaClientGenerator type="XMLMAPPER" targetPackage="com.wy.mydemo.mapper"
+                             targetProject="D:\wy\wydemo\wyproject\mydemo\src\main\java">
+            <property name="enableSubPackages" value="true"/>
+        </javaClientGenerator>
+
+        <!--<table schema="" tableName="sys_config" domainObjectName="SysUser" >-->
+        <!--&lt;!&ndash;<property name="useActualColumnNames" value="true"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;<generatedKey column="ID" sqlStatement="DB2" identity="true" />&ndash;&gt;-->
+        <!--&lt;!&ndash;<columnOverride column="DATE_FIELD" property="startDate" />&ndash;&gt;-->
+        <!--&lt;!&ndash;<ignoreColumn column="FRED" />&ndash;&gt;-->
+        <!--&lt;!&ndash;<columnOverride column="LONG_VARCHAR_FIELD" jdbcType="VARCHAR" />&ndash;&gt;-->
+        <!--</table>-->
+        <!-- <table schema="" tableName="sys_dept" domainObjectName="SysDept" > </table>
+        <table schema="" tableName="sys_dict_data" domainObjectName="SysDictData" > </table>
+        <table schema="" tableName="sys_job" domainObjectName="SysJob" > </table>
+        <table schema="" tableName="sys_job_log" domainObjectName="SysJobLog" > </table>
+       <table schema="" tableName="sys_config" domainObjectName="SysConfig" > </table>
+        <table schema="" tableName="sys_dept" domainObjectName="SysDept" > </table>
+        <table schema="" tableName="sys_dict_type" domainObjectName="SysDictType" > </table>
+        <table schema="" tableName="sys_logininfor" domainObjectName="SysLogininfor" > </table>
+        <table schema="" tableName="sys_menu" domainObjectName="SysMenu" > </table>
+        <table schema="" tableName="sys_notice" domainObjectName="SysNotice" > </table>
+        <table schema="" tableName="sys_oper_log" domainObjectName="SysOperLog" > </table>
+        <table schema="" tableName="sys_post" domainObjectName="SysPost" > </table>
+        <table schema="" tableName="sys_role" domainObjectName="SysRole" > </table>
+        <table schema="" tableName="sys_role_dept" domainObjectName="SysRoleDept" > </table>
+        <table schema="" tableName="sys_role_menu" domainObjectName="SysRoleMenu" > </table>
+        <table schema="" tableName="sys_user" domainObjectName="SysUser" > </table>
+        <table schema="" tableName="sys_user_online" domainObjectName="SysUserOnline" > </table>
+        <table schema="" tableName="sys_user_post" domainObjectName="SysUserPost" > </table>
+        <table schema="" tableName="sys_user_role" domainObjectName="SysUserRole" > </table>-->
+
+    </context>
+</generatorConfiguration>
