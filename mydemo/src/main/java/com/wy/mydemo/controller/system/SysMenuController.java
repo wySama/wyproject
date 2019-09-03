@@ -28,8 +28,7 @@ import java.util.List;
 @Controller
 @RequestMapping("/system/menu")
 public class SysMenuController extends BaseController {
-    private String prefix = "system/menu";
-
+    private String prefix = "views/menu";
     @Autowired
     private SysMenuService menuService;
 
