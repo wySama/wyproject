@@ -1,38 +1,74 @@
 package com.wy.mydemo.model;
 
-import java.io.Serializable;
-import java.util.Date;
+import com.wy.mydemo.common.annotation.Excel;
+import com.wy.mydemo.common.constant.UserConstants;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
-public class SysDictData extends BaseEntity implements Serializable {
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
+
+
+/**
+ * 字典数据表 sys_dict_data
+ *
+ * @author ruoyi
+ */
+public class SysDictData extends BaseEntity {
+    private static final long serialVersionUID = 1L;
+
+    /**
+     * 字典编码
+     */
+    @Excel(name = "字典编码")
     private Long dictCode;
 
-    private Integer dictSort;
+    /**
+     * 字典排序
+     */
+    @Excel(name = "字典排序")
+    private Long dictSort;
 
+    /**
+     * 字典标签
+     */
+    @Excel(name = "字典标签")
     private String dictLabel;
 
+    /**
+     * 字典键值
+     */
+    @Excel(name = "字典键值")
     private String dictValue;
 
+    /**
+     * 字典类型
+     */
+    @Excel(name = "字典类型")
     private String dictType;
 
+    /**
+     * 样式属性（其他样式扩展）
+     */
+    @Excel(name = "字典样式")
     private String cssClass;
 
+    /**
+     * 表格字典样式
+     */
     private String listClass;
 
+    /**
+     * 是否默认（Y是 N否）
+     */
+    @Excel(name = "是否默认", readConverterExp = "Y=是,N=否")
     private String isDefault;
 
+    /**
+     * 状态（0正常 1停用）
+     */
+    @Excel(name = "状态", readConverterExp = "0=正常,1=停用")
     private String status;
-
-    private String createBy;
-
-    private Date createTime;
-
-    private String updateBy;
-
-    private Date updateTime;
-
-    private String remark;
-
-    private static final long serialVersionUID = 1L;
 
     public Long getDictCode() {
         return dictCode;
@@ -42,44 +78,51 @@ public class SysDictData extends BaseEntity implements Serializable {
         this.dictCode = dictCode;
     }
 
-    public Integer getDictSort() {
+    public Long getDictSort() {
         return dictSort;
     }
 
-    public void setDictSort(Integer dictSort) {
+    public void setDictSort(Long dictSort) {
         this.dictSort = dictSort;
     }
 
+    @NotBlank(message = "字典标签不能为空")
+    @Size(min = 0, max = 100, message = "字典标签长度不能超过100个字符")
     public String getDictLabel() {
         return dictLabel;
     }
 
     public void setDictLabel(String dictLabel) {
-        this.dictLabel = dictLabel == null ? null : dictLabel.trim();
+        this.dictLabel = dictLabel;
     }
 
+    @NotBlank(message = "字典键值不能为空")
+    @Size(min = 0, max = 100, message = "字典键值长度不能超过100个字符")
     public String getDictValue() {
         return dictValue;
     }
 
     public void setDictValue(String dictValue) {
-        this.dictValue = dictValue == null ? null : dictValue.trim();
+        this.dictValue = dictValue;
     }
 
+    @NotBlank(message = "字典类型不能为空")
+    @Size(min = 0, max = 100, message = "字典类型长度不能超过100个字符")
     public String getDictType() {
         return dictType;
     }
 
     public void setDictType(String dictType) {
-        this.dictType = dictType == null ? null : dictType.trim();
+        this.dictType = dictType;
     }
 
+    @Size(min = 0, max = 100, message = "样式属性长度不能超过100个字符")
     public String getCssClass() {
         return cssClass;
     }
 
     public void setCssClass(String cssClass) {
-        this.cssClass = cssClass == null ? null : cssClass.trim();
+        this.cssClass = cssClass;
     }
 
     public String getListClass() {
@@ -87,7 +130,11 @@ public class SysDictData extends BaseEntity implements Serializable {
     }
 
     public void setListClass(String listClass) {
-        this.listClass = listClass == null ? null : listClass.trim();
+        this.listClass = listClass;
+    }
+
+    public boolean getDefault() {
+        return UserConstants.YES.equals( this.isDefault ) ? true : false;
     }
 
     public String getIsDefault() {
@@ -95,7 +142,7 @@ public class SysDictData extends BaseEntity implements Serializable {
     }
 
     public void setIsDefault(String isDefault) {
-        this.isDefault = isDefault == null ? null : isDefault.trim();
+        this.isDefault = isDefault;
     }
 
     public String getStatus() {
@@ -103,70 +150,26 @@ public class SysDictData extends BaseEntity implements Serializable {
     }
 
     public void setStatus(String status) {
-        this.status = status == null ? null : status.trim();
-    }
-
-    public String getCreateBy() {
-        return createBy;
-    }
-
-    public void setCreateBy(String createBy) {
-        this.createBy = createBy == null ? null : createBy.trim();
-    }
-
-    public Date getCreateTime() {
-        return createTime;
-    }
-
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
-    }
-
-    public String getUpdateBy() {
-        return updateBy;
-    }
-
-    public void setUpdateBy(String updateBy) {
-        this.updateBy = updateBy == null ? null : updateBy.trim();
-    }
-
-    public Date getUpdateTime() {
-        return updateTime;
-    }
-
-    public void setUpdateTime(Date updateTime) {
-        this.updateTime = updateTime;
-    }
-
-    public String getRemark() {
-        return remark;
-    }
-
-    public void setRemark(String remark) {
-        this.remark = remark == null ? null : remark.trim();
+        this.status = status;
     }
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(getClass().getSimpleName());
-        sb.append(" [");
-        sb.append("Hash = ").append(hashCode());
-        sb.append(", dictCode=").append(dictCode);
-        sb.append(", dictSort=").append(dictSort);
-        sb.append(", dictLabel=").append(dictLabel);
-        sb.append(", dictValue=").append(dictValue);
-        sb.append(", dictType=").append(dictType);
-        sb.append(", cssClass=").append(cssClass);
-        sb.append(", listClass=").append(listClass);
-        sb.append(", isDefault=").append(isDefault);
-        sb.append(", status=").append(status);
-        sb.append(", createBy=").append(createBy);
-        sb.append(", createTime=").append(createTime);
-        sb.append(", updateBy=").append(updateBy);
-        sb.append(", updateTime=").append(updateTime);
-        sb.append(", remark=").append(remark);
-        sb.append("]");
-        return sb.toString();
+        return new ToStringBuilder( this, ToStringStyle.MULTI_LINE_STYLE )
+                .append( "dictCode", getDictCode() )
+                .append( "dictSort", getDictSort() )
+                .append( "dictLabel", getDictLabel() )
+                .append( "dictValue", getDictValue() )
+                .append( "dictType", getDictType() )
+                .append( "cssClass", getCssClass() )
+                .append( "listClass", getListClass() )
+                .append( "isDefault", getIsDefault() )
+                .append( "status", getStatus() )
+                .append( "createBy", getCreateBy() )
+                .append( "createTime", getCreateTime() )
+                .append( "updateBy", getUpdateBy() )
+                .append( "updateTime", getUpdateTime() )
+                .append( "remark", getRemark() )
+                .toString();
     }
 }

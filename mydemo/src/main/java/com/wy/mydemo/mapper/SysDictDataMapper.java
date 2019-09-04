@@ -40,4 +40,13 @@ public interface SysDictDataMapper {
      * @return 字典标签
      */
      String selectDictLabel(String dictType, String dictValue);
+
+    /**
+     * 同步修改字典类型
+     *
+     * @param oldDictType 旧字典类型
+     * @param newDictType 新旧字典类型
+     * @return 结果
+     */
+     int updateDictDataType(@Param("oldDictType") String oldDictType, @Param("newDictType") String newDictType);
 }

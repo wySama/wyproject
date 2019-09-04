@@ -1,61 +1,87 @@
 package com.wy.mydemo.model;
 
-import java.io.Serializable;
-import java.util.Date;
+import com.wy.mydemo.common.annotation.Excel;
+import org.apache.commons.lang3.builder.ToStringBuilder;
+import org.apache.commons.lang3.builder.ToStringStyle;
 
-public class SysConfig extends BaseEntity implements Serializable {
-    private Integer configId;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Size;
 
-    private String configName;
 
-    private String configKey;
-
-    private String configValue;
-
-    private String configType;
-
-    private String createBy;
-
-    private Date createTime;
-
-    private String updateBy;
-
-    private Date updateTime;
-
-    private String remark;
-
+/**
+ * 参数配置表 sys_config
+ *
+ * @author ruoyi
+ */
+public class SysConfig extends BaseEntity {
     private static final long serialVersionUID = 1L;
 
-    public Integer getConfigId() {
+    /**
+     * 参数主键
+     */
+    @Excel(name = "参数主键")
+    private Long configId;
+
+    /**
+     * 参数名称
+     */
+    @Excel(name = "参数名称")
+    private String configName;
+
+    /**
+     * 参数键名
+     */
+    @Excel(name = "参数键名")
+    private String configKey;
+
+    /**
+     * 参数键值
+     */
+    @Excel(name = "参数键值")
+    private String configValue;
+
+    /**
+     * 系统内置（Y是 N否）
+     */
+    @Excel(name = "系统内置", readConverterExp = "Y=是,N=否")
+    private String configType;
+
+    public Long getConfigId() {
         return configId;
     }
 
-    public void setConfigId(Integer configId) {
+    public void setConfigId(Long configId) {
         this.configId = configId;
     }
 
+    @NotBlank(message = "参数名称不能为空")
+    @Size(min = 0, max = 100, message = "参数名称不能超过100个字符")
     public String getConfigName() {
         return configName;
     }
 
     public void setConfigName(String configName) {
-        this.configName = configName == null ? null : configName.trim();
+        this.configName = configName;
     }
 
+    @NotBlank(message = "参数键名长度不能为空")
+    @Size(min = 0, max = 100, message = "参数键名长度不能超过100个字符")
     public String getConfigKey() {
         return configKey;
     }
 
     public void setConfigKey(String configKey) {
-        this.configKey = configKey == null ? null : configKey.trim();
+        this.configKey = configKey;
     }
 
+    @NotBlank(message = "参数键值不能为空")
+    @Size(min = 0, max = 500, message = "参数键值长度不能超过500个字符")
     public String getConfigValue() {
         return configValue;
     }
 
     public void setConfigValue(String configValue) {
-        this.configValue = configValue == null ? null : configValue.trim();
+        this.configValue = configValue;
     }
 
     public String getConfigType() {
@@ -63,66 +89,22 @@ public class SysConfig extends BaseEntity implements Serializable {
     }
 
     public void setConfigType(String configType) {
-        this.configType = configType == null ? null : configType.trim();
-    }
-
-    public String getCreateBy() {
-        return createBy;
-    }
-
-    public void setCreateBy(String createBy) {
-        this.createBy = createBy == null ? null : createBy.trim();
-    }
-
-    public Date getCreateTime() {
-        return createTime;
-    }
-
-    public void setCreateTime(Date createTime) {
-        this.createTime = createTime;
-    }
-
-    public String getUpdateBy() {
-        return updateBy;
-    }
-
-    public void setUpdateBy(String updateBy) {
-        this.updateBy = updateBy == null ? null : updateBy.trim();
-    }
-
-    public Date getUpdateTime() {
-        return updateTime;
-    }
-
-    public void setUpdateTime(Date updateTime) {
-        this.updateTime = updateTime;
-    }
-
-    public String getRemark() {
-        return remark;
-    }
-
-    public void setRemark(String remark) {
-        this.remark = remark == null ? null : remark.trim();
+        this.configType = configType;
     }
 
     @Override
     public String toString() {
-        StringBuilder sb = new StringBuilder();
-        sb.append(getClass().getSimpleName());
-        sb.append(" [");
-        sb.append("Hash = ").append(hashCode());
-        sb.append(", configId=").append(configId);
-        sb.append(", configName=").append(configName);
-        sb.append(", configKey=").append(configKey);
-        sb.append(", configValue=").append(configValue);
-        sb.append(", configType=").append(configType);
-        sb.append(", createBy=").append(createBy);
-        sb.append(", createTime=").append(createTime);
-        sb.append(", updateBy=").append(updateBy);
-        sb.append(", updateTime=").append(updateTime);
-        sb.append(", remark=").append(remark);
-        sb.append("]");
-        return sb.toString();
+        return new ToStringBuilder( this, ToStringStyle.MULTI_LINE_STYLE )
+                .append( "configId", getConfigId() )
+                .append( "configName", getConfigName() )
+                .append( "configKey", getConfigKey() )
+                .append( "configValue", getConfigValue() )
+                .append( "configType", getConfigType() )
+                .append( "createBy", getCreateBy() )
+                .append( "createTime", getCreateTime() )
+                .append( "updateBy", getUpdateBy() )
+                .append( "updateTime", getUpdateTime() )
+                .append( "remark", getRemark() )
+                .toString();
     }
 }

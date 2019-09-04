@@ -40,4 +40,21 @@ public interface SysPostMapper {
      */
      List<SysPost> selectPostsByUserId(Long userId);
 
+
+    /**
+     * 校验岗位名称
+     *
+     * @param postName 岗位名称
+     * @return 结果
+     */
+     SysPost checkPostNameUnique(String postName);
+
+    /**
+     * 校验岗位编码
+     *
+     * @param postCode 岗位编码
+     * @return 结果
+     */
+     SysPost checkPostCodeUnique(String postCode);
+
 }

@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 @Mapper
 @Repository
 public interface SysUserPostMapper {
-    long countByExample(SysUserPostExample example);
+    int countByExample(SysUserPostExample example);
 
     int deleteByExample(SysUserPostExample example);
 

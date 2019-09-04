@@ -298,4 +298,19 @@
 	</select>
 
 
+
+  <select id="checkPostNameUnique" parameterType="String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from sys_post
+    where post_name=#{postName}
+  </select>
+
+  <select id="checkPostCodeUnique" parameterType="String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from sys_post
+    where post_code=#{postCode}
+  </select>
+
 </mapper>

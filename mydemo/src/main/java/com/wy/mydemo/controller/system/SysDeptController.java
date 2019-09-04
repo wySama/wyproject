@@ -29,7 +29,7 @@ import java.util.List;
 @Controller
 @RequestMapping("/system/dept")
 public class SysDeptController extends BaseController {
-    private String prefix = "system/dept";
+    private String prefix = "views/dept";
 
     @Autowired
     private SysDeptService deptService;

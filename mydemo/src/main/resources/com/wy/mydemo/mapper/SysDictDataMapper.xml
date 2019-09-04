@@ -368,4 +368,9 @@
 		where dict_type = #{dictType} and dict_value = #{dictValue}
 	</select>
 
+
+  <update id="updateDictDataType" parameterType="String">
+ 		update sys_dict_data set dict_type = #{newDictType} where dict_type = #{oldDictType}
+	</update>
+
 </mapper>
