@@ -1,5 +1,6 @@
-package com.wy.mydemo.controller;
+package com.wy.mydemo.controller.tool;
 
+import com.wy.mydemo.common.base.controller.BaseController;
 import com.wy.mydemo.util.StringUtils;
 import org.apache.shiro.authz.annotation.RequiresPermissions;
 import org.springframework.stereotype.Controller;
@@ -13,7 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 @RequestMapping("/tool/swagger")
-public class SwaggerController {
+public class SwaggerController extends BaseController {
 
     @RequiresPermissions("tool:swagger:view")
     @GetMapping()
@@ -27,5 +28,4 @@ public class SwaggerController {
     public String redirect(String url) {
         return StringUtils.format( "redirect:{}", url );
     }
-
 }
