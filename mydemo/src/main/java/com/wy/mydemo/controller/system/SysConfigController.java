@@ -27,7 +27,7 @@ import java.util.List;
 @Controller
 @RequestMapping("/system/config")
 public class SysConfigController extends BaseController {
-    private String prefix = "views/config";
+    private String prefix = "views/system/config";
 
     @Autowired
     private SysConfigService configService;

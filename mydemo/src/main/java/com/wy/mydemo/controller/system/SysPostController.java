@@ -27,7 +27,7 @@ import java.util.List;
 @Controller
 @RequestMapping("/system/post")
 public class SysPostController extends BaseController {
-    private String prefix = "views/post";
+    private String prefix = "views/system/post";
 
     @Autowired
     private SysPostService postService;

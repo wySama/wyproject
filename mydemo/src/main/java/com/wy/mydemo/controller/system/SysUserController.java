@@ -33,7 +33,7 @@ import java.util.List;
 @Controller
 @RequestMapping("/system/user")
 public class SysUserController extends BaseController {
-    private String prefix = "views/user";
+    private String prefix = "views/system/user";
 
     @Autowired
     private SysUserService userService;

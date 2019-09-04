@@ -356,13 +356,6 @@
   </update>
 
 
-<!--  <select id="selectDictDataByType" parameterType="com.wy.mydemo.model.SysDictData" resultMap="BaseResultMap">
-   select dict_code, dict_sort, dict_label, dict_value, dict_type, css_class, list_class, is_default, status, create_by, create_time, remark
-		from sys_dict_data
-    where status = '0' and dict_type = #{dictType} order by dict_sort asc
-  </select>-->
-
-
   <select id="selectDictLabel" resultType="String">
 		select dict_label from sys_dict_data
 		where dict_type = #{dictType} and dict_value = #{dictValue}
@@ -372,5 +365,13 @@
   <update id="updateDictDataType" parameterType="String">
  		update sys_dict_data set dict_type = #{newDictType} where dict_type = #{oldDictType}
 	</update>
+
+
+  <delete id="deleteDictDataByIds" parameterType="String">
+    delete from sys_dict_data where dict_code in
+    <foreach collection="array" item="dictCode" open="(" separator="," close=")">
+      #{dictCode}
+    </foreach>
+  </delete>
 
 </mapper>

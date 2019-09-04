@@ -288,4 +288,11 @@
       remark = #{remark,jdbcType=VARCHAR}
     where notice_id = #{noticeId,jdbcType=INTEGER}
   </update>
+
+  <delete id="deleteNoticeByIds" parameterType="String">
+    delete from sys_notice where notice_id in
+    <foreach item="noticeId" collection="array" open="(" separator="," close=")">
+      #{noticeId}
+    </foreach>
+  </delete>
 </mapper>

@@ -14,7 +14,7 @@ public interface SysNoticeMapper {
 
     int deleteByExample(SysNoticeExample example);
 
-    int deleteByPrimaryKey(Integer noticeId);
+    int deleteByPrimaryKey(Long noticeId);
 
     int insert(SysNotice record);
 
@@ -22,7 +22,7 @@ public interface SysNoticeMapper {
 
     List<SysNotice> selectByExample(SysNoticeExample example);
 
-    SysNotice selectByPrimaryKey(Integer noticeId);
+    SysNotice selectByPrimaryKey(Long noticeId);
 
     int updateByExampleSelective(@Param("record") SysNotice record, @Param("example") SysNoticeExample example);
 
@@ -31,4 +31,12 @@ public interface SysNoticeMapper {
     int updateByPrimaryKeySelective(SysNotice record);
 
     int updateByPrimaryKey(SysNotice record);
+
+    /**
+     * 批量删除公告
+     *
+     * @param noticeIds 需要删除的数据ID
+     * @return 结果
+     */
+     int deleteNoticeByIds(String[] noticeIds);
 }

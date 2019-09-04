@@ -27,7 +27,7 @@ import java.util.List;
 @Controller
 @RequestMapping("/system/dict")
 public class SysDictTypeController extends BaseController {
-    private String prefix = "views/dict/type";
+    private String prefix = "views/system/dict/type";
 
     @Autowired
     private SysDictTypeService dictTypeService;
@@ -125,7 +125,7 @@ public class SysDictTypeController extends BaseController {
     public String detail(@PathVariable("dictId") Long dictId, ModelMap mmap) {
         mmap.put( "dict", dictTypeService.selectDictTypeById( dictId ) );
         mmap.put( "dictList", dictTypeService.selectDictTypeAll() );
-        return "system/dict/data/data";
+        return "views/system/dict/data/data";
     }
 
     /**

@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 public class SysNotice extends BaseEntity implements Serializable {
-    private Integer noticeId;
+    private Long noticeId;
 
     private String noticeTitle;
 
@@ -26,11 +26,11 @@ public class SysNotice extends BaseEntity implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
-    public Integer getNoticeId() {
+    public Long getNoticeId() {
         return noticeId;
     }
 
-    public void setNoticeId(Integer noticeId) {
+    public void setNoticeId(Long noticeId) {
         this.noticeId = noticeId;
     }
 
