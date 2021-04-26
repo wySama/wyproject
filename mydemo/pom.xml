@@ -19,7 +19,7 @@
         <shiro.version>1.4.0</shiro.version>
         <bitwalker.version>1.19</bitwalker.version>
         <kaptcha.version>2.3.2</kaptcha.version>
-        <commons.io.version>2.5</commons.io.version>
+        <commons.io.version>2.7</commons.io.version>
         <thymeleaf.extras.shiro.version>2.0.0</thymeleaf.extras.shiro.version>
         <mysql.version>5.1.6</mysql.version>
         <pagehelper.version>1.2.9</pagehelper.version>
